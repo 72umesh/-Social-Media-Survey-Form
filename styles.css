@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+html{
+    background-image: url(https://img.freepik.com/free-vector/workplace-with-checklist_23-2147609104.jpg?t=st=1724228885~exp=1724232485~hmac=3c19c953094606a86e5f27db3445385d6e211a9eabd0a51ce2f140d04d1c6692&w=740);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+#title{
+    text-align: center;
+    font-weight: normal;
+}
+#description{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#survey-form{
+    width: 45%;
+    margin: auto;
+    background-color: #1fc1bebc;
+    padding:2.5rem 1.8rem;
+    border:1px solid;
+    border-radius: 5px;
+    
+}
+label{
+    display: flex;
+    padding-bottom: 0.6rem;
+}
+.personal-information > input{
+    display: block;
+    width: 100%;
+    height:2rem;
+    padding: 1rem;
+    border-radius:0.3rem;
+    margin-bottom: 5px;
+}
+select{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+#numfriends{
+    width: 100%;
+    padding: 0.4rem;
+}
+.rating{
+    display: flex;
+    justify-content: space-around;
+}
+.ratings{
+    position: relative;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+}
+.btn-label{
+    margin: 0.5rem;
+}
+.bl1{
+    display: inline-block;
+    margin-left: 1.3rem;
+}
+.bl2{
+    display: inline-block;
+    position:absolute;
+    right: 0;
+}
+textarea{
+    width: 100%;
+    min-height: 4rem;
+    resize: vertical;
+    padding:0.5rem;
+}
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: rgba(43, 230, 43, 0.741);
+    margin-top: 0.7rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid  rgb(3, 130, 3);
+}
+.ts{
+    font-size:1.2rem;
+}
